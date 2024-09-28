@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+canvas {
+    background-color: #ddd;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+#controls {
+    margin: 20px 0;
+}
+
+button, select {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 1.5rem;
+}
+
+#game-over-message {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
